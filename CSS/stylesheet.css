@@ -1766,7 +1766,7 @@ img {
   margin-right: 0px;
 }
 
-.img-leaderboard-wrapper {
+#img-leaderboard-wrapper {
    max-width:100%;
    overflow:hidden;
 }
