@@ -1768,7 +1768,7 @@ img {
 
 #img-leaderboard-wrapper {
    overflow:hidden;
-   width:auto;
+   /* width:auto; */
 }
 
 /******************** Media Queries ********************************/
