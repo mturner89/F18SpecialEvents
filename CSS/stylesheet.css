@@ -1771,7 +1771,7 @@ img {
   /* line 42, ../sass/interactive.scss */
   .img-leaderboard {
     min-height: 250px;
-    min-width: 700px;
+    /* min-width: 700px; */
     max-width: 100%;
   }
 }
