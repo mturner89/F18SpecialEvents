@@ -15,7 +15,13 @@ body {
 }
 
 /* line 22, ../sass/grid.scss */
-.row-full,
+.row-full {
+    margin-left:-8px;
+    margin-right:-8px;
+    margin-top:0px;
+    margin-bottom:0px;
+}
+
 .row-wrapper {
   margin-left: -15px;
   margin-right: -15px;
