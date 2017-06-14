@@ -2517,7 +2517,7 @@ img {
   /* line 617, ../sass/interactive.scss */
   .clear-sm,
   .clear-md,
-  .clear-lg.
+  .clear-lg,
   .clear-xl {
     display: block;
     clear: both;
