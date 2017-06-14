@@ -2450,6 +2450,15 @@ img {
   margin-top: 15px;
   margin-bottom: 15px;
 }
+.hidden-xl {
+   dsiplay:none; 
+}
+.hidden-sm,
+.hidden-md,
+.hidden-lg {
+  display:block; 
+  
+}
 
 /*************************** Media Queries ****************************/
 @media only screen and (max-width: 1000px) {
@@ -2468,7 +2477,8 @@ img {
     margin-top: 15px;
     margin-bottom: 15px;
     float:none;
-  }  
+  } 
+  
 }
 @media only screen and (min-width: 1161px) {
   /* line 599, ../sass/interactive.scss */
@@ -2479,6 +2489,9 @@ img {
     margin-bottom: 15px;
     float:none;
   }  
+  .hidden-lg {
+    display:none;
+  }
 }
 @media only screen and (min-width: 769px) {
   /* line 608, ../sass/interactive.scss */
@@ -2488,7 +2501,10 @@ img {
     margin-top: 15px;
     margin-bottom: 15px;
     float:none;
-  }  
+  } 
+  .hidden-md {
+    display:none; 
+  }
 }
 @media only screen and (max-width: 768px) {
   /* line 617, ../sass/interactive.scss */
@@ -2499,4 +2515,7 @@ img {
     margin-bottom: 15px;
     float:none;
   } 
+  .hidden-sm {
+     display:none;
+  }
 }
