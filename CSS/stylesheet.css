@@ -2467,9 +2467,9 @@ img {
     margin-bottom: -40px !important;
   }
 }
-@media only screen and (min-width: 1400px) {
+@media only screen and (min-width: 1401px) {
   /* line 590, ../sass/interactive.scss */
-  .clear-xl   {
+  .clear-xl {
     display: block;
     clear: both;
     margin-top: 15px;
@@ -2481,9 +2481,9 @@ img {
   }
   
 }
-@media only screen and (min-width: 1161px) {
+@media only screen and (max-width: 1400px) {
   /* line 599, ../sass/interactive.scss */
-  .clear-lg,
+  .clear-lg,  
   .clear-xl {
     display: block;
     clear: both;
@@ -2496,11 +2496,11 @@ img {
      display:none;
   }
 }
-@media only screen and (min-width: 769px) {
+@media only screen and (max-width: 1160px) {
   /* line 608, ../sass/interactive.scss */
-  .clear-md,
+  .clear-xl,
   .clear-lg,
-  .clear-xl {
+  .clear-md {
     display: block;
     clear: both;
     margin-top: 15px;
