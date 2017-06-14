@@ -564,6 +564,10 @@ table {
   margin-right: 15px;
   margin-left: 15px;
 }
+.nav-contents a:hover {
+  border-bottom:2px solid #fff;
+  padding-bottom:5px;
+}
 
 /************************************** Sidebar Styles *****************************************/
 /* line 433, ../sass/grid.scss */
