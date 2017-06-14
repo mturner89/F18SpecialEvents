@@ -673,6 +673,40 @@ table {
     display: block;
   }
 }
+
+/******************************* Breadcrumbs ************************************/
+/********************************************************************************/
+.breadcrumbs {
+   margin-top:15px; 
+}
+.breadcrumbs > p {
+    float: left;
+    font-weight: 800;
+    font-size: 16px;
+    padding-right: 5px;   
+    color: #dd2421;
+    padding:0px;
+    margin:0px;
+}
+.breadcrumbs > a {
+    float: left;
+    display: block;
+    font-size: 16px;
+    color: #676767;
+    margin-top: 5px;
+    margin-left: 10px;
+    font-weight: 400;
+    margin-right:10px;
+}
+.breadcrumbs > a:hover {
+    text-decoration:none;
+}
+
+
+
+
+
+
 /***************************** Pull Queries *******************************/
 /***************************************************************************/
 @media only screen and (max-width: 768px) {
