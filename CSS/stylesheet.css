@@ -2467,6 +2467,7 @@ img {
     clear: both;
     margin-top: 15px;
     margin-bottom: 15px;
+    float:none;
   }  
 }
 @media only screen and (min-width: 1161px) {
@@ -2476,6 +2477,7 @@ img {
     clear: both;
     margin-top: 15px;
     margin-bottom: 15px;
+    float:none;
   }  
 }
 @media only screen and (min-width: 769px) {
@@ -2485,6 +2487,7 @@ img {
     clear: both;
     margin-top: 15px;
     margin-bottom: 15px;
+    float:none;
   }  
 }
 @media only screen and (max-width: 768px) {
@@ -2494,5 +2497,6 @@ img {
     clear: both;
     margin-top: 15px;
     margin-bottom: 15px;
+    float:none;
   } 
 }
