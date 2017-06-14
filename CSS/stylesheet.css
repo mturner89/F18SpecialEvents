@@ -1352,7 +1352,7 @@ a:hover {
 }
 .anchor-btn {
   display:block;
-  height:auto;
+  height:auto !important;
 }
 
 @media only screen and (max-width: 767px) {
