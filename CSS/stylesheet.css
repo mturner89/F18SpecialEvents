@@ -2450,12 +2450,10 @@ img {
   margin-top: 15px;
   margin-bottom: 15px;
 }
-.hidden-xl {
-   dsiplay:none; 
-}
 .hidden-sm,
 .hidden-md,
-.hidden-lg {
+.hidden-lg,
+.hidden-xl {
   display:block; 
   
 }
@@ -2477,45 +2475,60 @@ img {
     margin-top: 15px;
     margin-bottom: 15px;
     float:none;
-  } 
+  }   
+  .hidden-xl {
+     display:none;
+  }
   
 }
 @media only screen and (min-width: 1161px) {
   /* line 599, ../sass/interactive.scss */
-  .clear-lg  {
+  .clear-lg,
+  .clear-xl {
+    display: block;
+    clear: both;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    float:none;
+  }   
+  .hidden-lg,
+  .hidden-xl {
+     display:none;
+  }
+}
+@media only screen and (min-width: 769px) {
+  /* line 608, ../sass/interactive.scss */
+  .clear-md,
+  .clear-lg,
+  .clear-xl {
     display: block;
     clear: both;
     margin-top: 15px;
     margin-bottom: 15px;
     float:none;
   }  
-  .hidden-lg {
-    display:none;
-  }
-}
-@media only screen and (min-width: 769px) {
-  /* line 608, ../sass/interactive.scss */
-  .clear-md {
-    display: block;
-    clear: both;
-    margin-top: 15px;
-    margin-bottom: 15px;
-    float:none;
-  } 
-  .hidden-md {
-    display:none; 
+  .hidden-md,
+  .hidden-lg,
+  .hidden-xl {
+     display:none;
   }
 }
 @media only screen and (max-width: 768px) {
   /* line 617, ../sass/interactive.scss */
-  .clear-sm {
+  .clear-sm,
+  .clear-md,
+  .clear-lg.
+  .clear-xl {
     display: block;
     clear: both;
     margin-top: 15px;
     margin-bottom: 15px;
     float:none;
   } 
-  .hidden-sm {
+  .hidden-sm,
+  .hidden-md,
+  .hidden-lg,
+  .hidden-xl {
      display:none;
   }
 }
