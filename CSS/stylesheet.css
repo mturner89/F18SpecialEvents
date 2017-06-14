@@ -567,6 +567,7 @@ table {
 .nav-contents a:hover {
   border-bottom:3px solid #fff;
   padding-bottom:5px;
+  text-decoration:none;
 }
 
 /************************************** Sidebar Styles *****************************************/
