@@ -2443,17 +2443,12 @@ img {
 }
 
 /* line 570, ../sass/interactive.scss */
-.clear-sm {
-  display:block; 
-  clear: both;
-  margin-top: 15px;
-  margin-bottom: 15px;
-}
+.clear-sm,
 .clear-md,
 .clear-lg,
-.clear-xl { 
+.clear-xl {
   margin-top: 15px;
-  margin-bottom: 15px; 
+  margin-bottom: 15px;
 }
 
 /*************************** Media Queries ****************************/
@@ -2467,27 +2462,21 @@ img {
 }
 @media only screen and (min-width: 1400px) {
   /* line 590, ../sass/interactive.scss */
-  .clear-xl,
-  .clear-lg,
-  .clear-md {
+  .clear-xl   {
     display: block;
     clear: both;
     margin-top: 15px;
     margin-bottom: 15px;
-  }
+  }  
 }
 @media only screen and (min-width: 1161px) {
   /* line 599, ../sass/interactive.scss */
-  .clear-lg,
-  .clear-md {
+  .clear-lg  {
     display: block;
     clear: both;
     margin-top: 15px;
     margin-bottom: 15px;
-  }
-  .clear-xl {
-     clear:none;
-  }
+  }  
 }
 @media only screen and (min-width: 769px) {
   /* line 608, ../sass/interactive.scss */
@@ -2496,12 +2485,7 @@ img {
     clear: both;
     margin-top: 15px;
     margin-bottom: 15px;
-  }
-  .clear-lg,
-  .clear-xl {
-     clear:none; 
-  }
-  
+  }  
 }
 @media only screen and (max-width: 768px) {
   /* line 617, ../sass/interactive.scss */
@@ -2510,10 +2494,5 @@ img {
     clear: both;
     margin-top: 15px;
     margin-bottom: 15px;
-  }
-  .clear-md,
-  .clear-lg,
-  .clear-xl {
-      clear:none; 
-  }
+  } 
 }
