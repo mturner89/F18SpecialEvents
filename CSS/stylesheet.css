@@ -1350,6 +1350,10 @@ a:hover {
   font-weight: 800;
   color: #DD2211;
 }
+.anchor-btn {
+  display:block;
+  height:auto;
+}
 
 @media only screen and (max-width: 767px) {
   /* line 187, ../sass/typography.scss */
