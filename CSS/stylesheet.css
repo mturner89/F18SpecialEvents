@@ -1091,13 +1091,13 @@ table {
     display: none;
   }
 }
-@media only screen and (min-width: 769px) {
+@media (min-width: 769px) and (max-width: 1160px) {
   /* line 778, ../sass/grid.scss */
   .hidden-md {
     display: none;
   }
 }
-@media only screen and (min-width: 1161px) {
+@media (min-width: 1161px) and (max-width: 1399px) {
   /* line 783, ../sass/grid.scss */
   .hidden-lg {
     display: none;
