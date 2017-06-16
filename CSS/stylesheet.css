@@ -1226,6 +1226,7 @@ h5 {
   /* line 88, ../sass/typography.scss */
   h3 {
     font-size: 36px;
+    line-height:auto;
   }
 
   /* line 91, ../sass/typography.scss */
@@ -2418,6 +2419,10 @@ img {
 .spacer-sm {
   height: 50px;
   display: block;
+}
+.spacer-xs {
+  height:25px;
+  display:block;
 }
 
 /* line 531, ../sass/interactive.scss */
