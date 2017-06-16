@@ -2494,13 +2494,7 @@ img {
   margin-top: 15px;
   margin-bottom: 15px;
 }
-.hidden-sm,
-.hidden-md,
-.hidden-lg,
-.hidden-xl {
-  display:block; 
-  
-}
+
 
 /*************************** Media Queries ****************************/
 @media only screen and (max-width: 1000px) {
@@ -2519,11 +2513,7 @@ img {
     margin-top: 15px;
     margin-bottom: 15px;
     float:none;
-  }   
-  .hidden-xl {
-     display:none;
-  }
-  
+  }       
 }
 @media only screen and (max-width: 1400px) {
   /* line 599, ../sass/interactive.scss */
@@ -2534,11 +2524,7 @@ img {
     margin-top: 15px;
     margin-bottom: 15px;
     float:none;
-  }   
-  .hidden-lg,
-  .hidden-xl {
-     display:none;
-  }
+  }    
 }
 @media only screen and (max-width: 1160px) {
   /* line 608, ../sass/interactive.scss */
@@ -2551,11 +2537,6 @@ img {
     margin-bottom: 15px;
     float:none;
   }  
-  .hidden-md,
-  .hidden-lg,
-  .hidden-xl {
-     display:none;
-  }
 }
 @media only screen and (max-width: 768px) {
   /* line 617, ../sass/interactive.scss */
@@ -2568,11 +2549,5 @@ img {
     margin-top: 15px;
     margin-bottom: 15px;
     float:none;
-  } 
-  .hidden-sm,
-  .hidden-md,
-  .hidden-lg,
-  .hidden-xl {
-     display:none;
-  }
+  }  
 }
