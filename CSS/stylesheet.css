@@ -1254,7 +1254,7 @@ h5 {
 /*************************************** Body Text Styles **********************************************/
 /*******************************************************************************************************/
 /* line 111, ../sass/typography.scss */
-p, ul, li, span, label, section, article {
+p, ul, li, label, section, article {
   font-size: 20px;
   font-weight: 400;
   color: #676767;
