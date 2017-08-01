@@ -2237,7 +2237,7 @@ img {
 
 /* line 362, ../sass/interactive.scss */
 #fundraising-stats-container .stat-section {
-  float: left;
+  float: right;
   margin-right: 25px;
 }
 /* line 365, ../sass/interactive.scss */
