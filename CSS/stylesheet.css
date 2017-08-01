@@ -2250,6 +2250,7 @@ img {
 #fundraising-stats-container .stat-section .stats-text p:first-child,
 #fundraising-stats-container .stat-section .stats-text p:first-child > a {
   font-size: 12px;
+  text-align: right;
 }
 /* line 373, ../sass/interactive.scss */
 #fundraising-stats-container .stat-section .stats-text p:last-child,
@@ -2257,6 +2258,7 @@ img {
   font-size: 14px;
   font-weight: 600;
   margin-top: -10px;
+  text-align: right;
 }
 /* line 380, ../sass/interactive.scss */
 #fundraising-stats-container .stat-section .stats-img {
