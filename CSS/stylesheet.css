@@ -2200,6 +2200,7 @@ img {
 /*********************************************************************************************/
 /* line 334, ../sass/interactive.scss */
 #stats-container {
+  padding-top:15px;
   margin-top: -15px;
   margin-bottom: -15px;
 }
