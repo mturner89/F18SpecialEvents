@@ -2202,203 +2202,221 @@ img {
 #stats-container {
   margin-top: -15px;
   margin-bottom: -15px;
-  padding-top: 15px;
-  padding-bottom: 15px;
 }
 
-/* line 340, ../sass/interactive.scss */
+/* line 338, ../sass/interactive.scss */
 #top-fundraisers {
   margin-top: 10px;
 }
 
-/* line 344, ../sass/interactive.scss */
+/* line 342, ../sass/interactive.scss */
 #top-fundraisers p {
   float: left;
   font-weight: 600;
   text-transform: uppercase;
 }
 
-/* line 350, ../sass/interactive.scss */
+/* line 348, ../sass/interactive.scss */
 .top-funds-span {
   font-weight: 400;
   text-transform: uppercase;
   font-size: 22px;
 }
 
-/* line 355, ../sass/interactive.scss */
+/* line 353, ../sass/interactive.scss */
 .fundraiser-choices {
   margin-left: 40px;
   margin-top: 28px;
   float: left;
 }
+/* line 357, ../sass/interactive.scss */
+.fundraiser-choices .primary-btn {
+  font-size: 14px;
+}
 
-/* line 360, ../sass/interactive.scss */
-.stats-circle {
-  border-radius: 50%;
-  background-color: transparent;
-  border: 5px solid rgba(221, 34, 17, 0.6);
-  height: 90px;
-  width: 90px;
+/* line 362, ../sass/interactive.scss */
+#fundraising-stats-container .stat-section {
   float: left;
-  margin-left: 40px;
-  white-space: nowrap;
+  margin-right: 25px;
 }
-
-/* line 371, ../sass/interactive.scss */
-.stats-circle p:first-child {
-  font-size: 10px;
+/* line 365, ../sass/interactive.scss */
+#fundraising-stats-container .stat-section .stats-text {
+  float: left;
+  margin-right: 5px;
+  margin-top: 25px;
+}
+/* line 369, ../sass/interactive.scss */
+#fundraising-stats-container .stat-section .stats-text p:first-child,
+#fundraising-stats-container .stat-section .stats-text p:first-child > a {
+  font-size: 12px;
+}
+/* line 373, ../sass/interactive.scss */
+#fundraising-stats-container .stat-section .stats-text p:last-child,
+#fundraising-stats-container .stat-section .stats-text p:last-child > a {
+  font-size: 14px;
   font-weight: 600;
-  margin-top: 15px;
-  color: #fff;
+  margin-top: -10px;
+}
+/* line 380, ../sass/interactive.scss */
+#fundraising-stats-container .stat-section .stats-img {
+  float: left;
+  width: 70px;
 }
 
-/* line 379, ../sass/interactive.scss */
-.stats-circle p:last-child {
-  color: #fff;
-  font-weight: 600;
-  font-size: 28px;
-  margin-top: -5px;
-}
-
-/* line 387, ../sass/interactive.scss */
-.circle1 p:first-child {
-  margin-left: 10px;
-}
-
-/* line 392, ../sass/interactive.scss */
-.circle1 p:last-child {
-  margin-left: -15px;
-}
-
-/* line 397, ../sass/interactive.scss */
-.circle2 p:first-child {
-  margin-left: 15px;
-}
-
-/* line 402, ../sass/interactive.scss */
-.circle2 p:last-child {
-  margin-left: -25px;
-}
-
-/* line 407, ../sass/interactive.scss */
-.circle3 p:first-child {
-  margin-left: 18px;
-}
-
-/* line 412, ../sass/interactive.scss */
-.circle3 p:last-child {
-  margin-left: 20px;
-}
-
-/************************** Media Queries *******************************/
-@media only screen and (max-width: 1444px) {
-  /* line 419, ../sass/interactive.scss */
-  .stats-circle {
-    margin-left: 20px;
-  }
-
-  /* line 423, ../sass/interactive.scss */
-  .stats-circle p:last-child {
-    font-size: 22px;
-  }
-
-  /* line 428, ../sass/interactive.scss */
-  .circle1 p:last-child {
-    margin-left: 0px;
-  }
-
-  /* line 433, ../sass/interactive.scss */
-  .circle2 p:last-child {
-    margin-left: -10px;
+/**************************** Media Querries ****************************/
+@media only screen and (max-width: 1510px) {
+  /* line 390, ../sass/interactive.scss */
+  #fundraising-stats-container > .stat-section {
+    margin-right: 20px;
   }
 }
-@media only screen and (max-width: 1376px) {
-  /* line 440, ../sass/interactive.scss */
+@media only screen and (max-width: 1470px) {
+  /* line 396, ../sass/interactive.scss */
+  #fundraising-stats-container > .stat-section {
+    margin-right: 20px;
+  }
+
+  /* line 399, ../sass/interactive.scss */
+  #top-fundraisers,
+  #fundraising-stats-container {
+    float: none;
+    margin: auto;
+  }
+
+  /* line 404, ../sass/interactive.scss */
+  #fundraising-stats-container {
+    width: 40%;
+    clear: both;
+  }
+}
+@media only screen and (max-width: 1378px) {
+  /* line 411, ../sass/interactive.scss */
   #stats-container {
     padding-bottom: 30px;
   }
 
-  /* line 443, ../sass/interactive.scss */
-  #top-fundraisers {
-    margin-top: -15px;
-  }
-
-  /* line 447, ../sass/interactive.scss */
+  /* line 415, ../sass/interactive.scss */
   #top-fundraisers p {
     float: none;
     text-align: center;
   }
 
-  /* line 452, ../sass/interactive.scss */
+  /* line 420, ../sass/interactive.scss */
   .fundraiser-choices {
     float: none;
+    margin-left: 100px;
+  }
+
+  /* line 424, ../sass/interactive.scss */
+  #fundraising-stats-container {
+    width: 42%;
+  }
+}
+@media only screen and (max-width: 1315px) {
+  /* line 430, ../sass/interactive.scss */
+  #stats-container {
+    padding-bottom: 30px;
+  }
+
+  /* line 434, ../sass/interactive.scss */
+  #top-fundraisers p {
+    float: none;
+    text-align: center;
+  }
+
+  /* line 439, ../sass/interactive.scss */
+  .fundraiser-choices {
+    float: none;
+    margin-left: 100px;
+  }
+
+  /* line 443, ../sass/interactive.scss */
+  #fundraising-stats-container {
+    width: 60%;
+    margin-left: 380px;
   }
 }
 @media only screen and (max-width: 1238px) {
-  /* line 458, ../sass/interactive.scss */
-  #top-fundraisers,
-  #stats-circles-container {
+  /* line 450, ../sass/interactive.scss */
+  #top-fundraisers {
     float: none;
     margin-left: auto;
     margin-right: auto;
     text-align: center;
   }
 
-  /* line 465, ../sass/interactive.scss */
+  /* line 456, ../sass/interactive.scss */
+  #top-fundraisers {
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 1163px) {
+  /* line 462, ../sass/interactive.scss */
   #top-fundraisers {
     width: 100%;
   }
 
-  /* line 468, ../sass/interactive.scss */
-  #stats-circles-container {
-    width: 450px;
-    margin-top: 30px;
+  /* line 465, ../sass/interactive.scss */
+  #fundraising-stats-container {
+    width: 100%;
+    margin-left: 350px;
+  }
+}
+@media only screen and (max-width: 1110px) {
+  /* line 471, ../sass/interactive.scss */
+  #top-fundraisers {
+    width: 100%;
   }
 
-  /* line 475, ../sass/interactive.scss */
-  .circle1 p:first-child,
-  .circle2 p:first-child,
-  .circle3 p:first-child {
+  /* line 474, ../sass/interactive.scss */
+  #fundraising-stats-container {
+    display: table;
+    width: 600px;
     margin-left: auto;
+    margin-right: auto;
+    clear: both;
+    float: none;
   }
 
-  /* line 480, ../sass/interactive.scss */
-  .circle3 p:last-child {
-    margin-left: auto;
+  /* line 482, ../sass/interactive.scss */
+  #fundraising-stats-container > .stat-section {
+    float: right;
+    margin-left: 10px;
   }
 }
 @media only screen and (max-width: 670px) {
-  /* line 487, ../sass/interactive.scss */
+  /* line 491, ../sass/interactive.scss */
   .fundraiser-choices {
     margin-left: auto;
   }
 }
 @media only screen and (max-width: 630px) {
-  /* line 492, ../sass/interactive.scss */
+  /* line 496, ../sass/interactive.scss */
   .fundraiser-choices {
     margin-left: auto;
   }
 
-  /* line 496, ../sass/interactive.scss */
+  /* line 500, ../sass/interactive.scss */
   .fundraiser-choices a {
     display: block;
     margin-left: auto;
     margin-right: auto;
     width: 60%;
   }
-}
-@media only screen and (max-width: 390px) {
-  /* line 505, ../sass/interactive.scss */
-  #stats-circles-container {
-    width: auto;
-  }
 
-  /* line 508, ../sass/interactive.scss */
-  .stats-circle {
-    float: none;
+  /* line 507, ../sass/interactive.scss */
+  #fundraising-stats-container {
+    width: 100%;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 20px;
+  }
+
+  /* line 512, ../sass/interactive.scss */
+  #fundraising-stats-container > .stat-section {
+    display: block;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
   }
 }
 /****************************** Helper Classes ***********************************/
