@@ -2336,7 +2336,7 @@ img {
   /* line 443, ../sass/interactive.scss */
   #fundraising-stats-container {
     width: 60%;
-    margin-left: 380px;
+    margin-left: 150px;
   }
 }
 @media only screen and (max-width: 1238px) {
@@ -2361,8 +2361,8 @@ img {
 
   /* line 465, ../sass/interactive.scss */
   #fundraising-stats-container {
-    width: 100%;
-    margin-left: 350px;
+    width: 60%;
+    margin-left: 200px;
   }
 }
 @media only screen and (max-width: 1110px) {
